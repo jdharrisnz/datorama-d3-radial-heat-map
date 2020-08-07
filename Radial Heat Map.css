@@ -1,0 +1,72 @@
+body {
+  font-family: "Open Sans";
+  font-size: 12px;
+  line-height: 0;
+}
+
+#__da-app-content {
+  display: flex;
+  flex-direction: row;
+}
+
+#svgContainer {
+  flex: 1 1 33em;
+}
+
+#legendContainer {
+  flex: 1 1 9em;
+}
+
+#tooltip {
+  position: absolute;
+  background: rgb(255, 255, 255);
+  opacity: 0.9;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 0.5em;
+  padding: 0.5em;
+  line-height: normal;
+}
+
+#tooltip .date {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+#tooltip .value {
+  color: rgb(0, 0, 0);
+}
+
+#tooltip .label {
+  color: rgb(128, 128, 128);
+}
+
+.dataPoint, #legendRect {
+  fill: rgb(78, 121, 167);
+}
+
+.legendLabel {
+  fill: rgb(128, 128, 128);
+  text-anchor: end;
+}
+
+.labelText {
+  fill: rgb(128, 128, 128);
+  text-anchor: middle;
+}
+
+.labelLine, .legendTick, #startArrow {
+  stroke: rgb(128, 128, 128);
+  opacity: 0.5;
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+  fill: none;
+}
+
+#markerDot, #markerArrow {
+  stroke: none;
+  fill: rgb(128, 128, 128);
+}
+
+.centerText {
+  fill: rgb(128, 128, 128);
+}
