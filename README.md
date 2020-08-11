@@ -30,8 +30,8 @@ To change the colour, add this to the start of the CSS section of the Custom Wid
 Add `radialHeatMap.initialize();` to the JS section, and add the below dependencies to the second tab of the Custom Widget Editor.
 
 Script dependencies (must be loaded in this order):
-1. https://d3js.org/d3.v5.min.js
-2. https://dato-custom-widgets-js-css.s3.eu-west-2.amazonaws.com/radial-heat-map/Radial+Heat+Map.js
+1. `https://d3js.org/d3.v5.min.js`
+2. `https://dato-custom-widgets-js-css.s3.eu-west-2.amazonaws.com/radial-heat-map/Radial+Heat+Map.js`
 
 Style dependency:
-1. https://dato-custom-widgets-js-css.s3.eu-west-2.amazonaws.com/radial-heat-map/Radial+Heat+Map.css
+1. `https://dato-custom-widgets-js-css.s3.eu-west-2.amazonaws.com/radial-heat-map/Radial+Heat+Map.css`
