@@ -27,7 +27,7 @@ To change the colour, add this to the start of the CSS section of the Custom Wid
 ```
 
 ## Set up and Dependencies
-Add `radialHeatMap.initialize();` to the JS section, and add the below dependencies to the second tab of the Custom Widget Editor.
+Add `radialHeatMap.initialize();` to the JS section of the Custom Widget Editor, and add the below links to the dependencies area (second button at the top left of the Custom Widget Editor).
 
 Script dependencies (must be loaded in this order):
 1. `https://d3js.org/d3.v5.min.js`
